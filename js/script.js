@@ -1,12 +1,7 @@
 
-$(function(){
-
- 
-  $("#slide").slick({dots:true});
-
-  // $(".btn").on("click",()=>{
-  //   $(".slide").slideToggle();
-  // })
-
-});  
+$('.multiple-items').slick({
+  infinite: true,
+  slidesToShow: 2,
+  slidesToScroll: 2
+});
     
